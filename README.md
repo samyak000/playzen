@@ -27,6 +27,9 @@ PLAYZEN is a modern movie website built using pure frontend technologies. It sho
 <p align="center">
   <img src="assets/screenshots/collection.png" width="800"/>
 </p>
+<p align="center">
+  <img src="assets/screenshots/video.png" width="800"/>
+</p>
 
 
 ## ✨ Features
