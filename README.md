@@ -82,12 +82,6 @@ CSS handles layout, responsiveness, and animations
 🔐 User login & personalization
 
 
-
-👨‍💻 Author
-
-Samyak Jain
-GitHub: https://github.com/samyak000
-
 ⭐ Support
 
 If you like this project, give it a ⭐ on GitHub!
