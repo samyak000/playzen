@@ -10,19 +10,20 @@
     <!-- font-awesome cdn link  -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <title>Advanced Level Movies Website</title>
+    <title>ShowBox - Movie Streaming</title>
 </head>
 
 <body>
-    
+
     <header>
         <nav>
-            <a href="/" class="logo"><img src="img/logo.jpeg" alt=""></a>
+            <a href="index.html" class="logo"><img src="img/logo2.jpeg" alt="ShowBox Logo"
+                    style="width: 200px; height: 50px; border-radius: 5px;"></a>
             <div class="end_bx">
                 <ul>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Movies</a></li>
-                    <li><a href="file:///C:\Users\mayda\OneDrive\Documents\Code Sea\Projects\PLAYZEN\index.html">Music</a></li>
+                    <li><a href="index.html">Music</a></li>
                     <li>Category <i class="fas fa-angle-down"></i>
                         <div class="list">
                             <a href="#">Trends Now</a>
@@ -62,10 +63,12 @@
                 <span>Action / Adventure / Sci-Fi</span>
             </h3>
             <h1 id="header_title">Rampage</h1>
-            <p id="header_pra">From Wikipedia, the free encyclopedia Rampage is a series of video games released by Midway (1986–2009) and Warner Bros. Interactive Entertainment (2009–present) for the arcade and various consoles. The basic premise of the games is that,
+            <p id="header_pra">From Wikipedia, the free encyclopedia Rampage is a series of video games released by
+                Midway (1986–2009) and Warner Bros. Interactive Entertainment (2009–present) for the arcade and various
+                consoles. The basic premise of the games is that,
                 due to experiment-related accidents, the player controls a human transformed into a giant monster.</p>
             <div class="btns">
-                <a href="file:///C:\Users\mayda\OneDrive\Documents\Code Sea\Projects\PLAYZEN\index.html"> <button><i class="fas fa-play" id="play_btn"></i> WATCH</button></a>
+                <a href="#video"> <button><i class="fas fa-play" id="play_btn"></i> WATCH</button></a>
                 <button><i class="fas fa-plus"></i> ADD LIST</button>
             </div>
         </div>
@@ -95,7 +98,7 @@
         <button id="drama1">Drama</button>
         <button>WebSeries</button>
         <button>18+</button>
-        <button>SciFi</button>
+        <button>Sci-Fi</button>
         <button>Horror</button>
         <!-- all button copied  -->
         <div class="cato_left_right">
@@ -108,8 +111,8 @@
 
     <!-- movies box start  -->
     <div class="movie_bx_1" id="mvoes_bx_1">
-        <button id="left_scroll1"> <i class="fas fa-angle-down" ></i></button>
-        <button id="right_scroll1"> <i class="fas fa-angle-down" ></i></button>
+        <button id="left_scroll1"> <i class="fas fa-angle-down"></i></button>
+        <button id="right_scroll1"> <i class="fas fa-angle-down"></i></button>
         <div class="movie_bxx" id="action_bx"></div>
         <div class="movie_bxx" id="crime_bx"></div>
         <div class="movie_bxx" id="drama_bx"></div>
@@ -117,7 +120,7 @@
     <!-- movies box end  -->
     <!-- video box start  -->
     <div class="video_bx">
-        <video src="./RAMPAGE - OFFICIAL TRAILER 1 [HD] - Warner Bros. Pictures (720p, h264).mp4" id="video"></video>
+        <video src="khutti.mp4" id="video"></video>
         <div class="control">
             <div class="play_redo">
                 <i class="bi bi-play-fill" id="play"></i>
@@ -125,7 +128,7 @@
                 <span>10</span>
             </div>
             <div class="start_seekbar_end">
-                <span id="start_time">28.04</span>
+                <span id="start_time">00.07</span>
                 <div class="seek">
                     <input type="range" id="seek" value="0">
                     <h5 id="seek_2"></h5>
@@ -142,7 +145,7 @@
             </div>
         </div>
 
-        <h4 class="title_video">Rampage trailer hd coming soon</h4>
+        <h4 class="title_video">Diljit Dosanjh: Khutti Official Music Video</Video></h4>
         <span class="watching"><i class="fas fa-eye"></i>Watching</span>
         <div class="heart_pluse"> <i class="fas fa-heart"></i> <i class="fas fa-plus"></i></div>
         <div class="video_list">
@@ -165,20 +168,20 @@
             <button>Sort by:</button>
             <button id="all_btn">All</button>
             <button id="latest_btn">Latest</button>
-            <button id="year">Year <i class="fas fa-angle-down" ></i>
-            <div class="year_bx">
-                <li id="year2022__btn">2022</li>
-                <li id="year2021__btn">2021</li>
-                <li id="year2020__btn">2020</li>
-                <li>2019</li>
-                <li>2018</li>
-                <li>2017</li>
-                <li>2016</li>
-                <li>2015</li>
-                <li>2014</li>
-            </div>
+            <button id="year">Year <i class="fas fa-angle-down"></i>
+                <div class="year_bx">
+                    <li id="year2022__btn">2022</li>
+                    <li id="year2021__btn">2021</li>
+                    <li id="year2020__btn">2020</li>
+                    <li>2019</li>
+                    <li>2018</li>
+                    <li>2017</li>
+                    <li>2016</li>
+                    <li>2015</li>
+                    <li>2014</li>
+                </div>
             </button>
-            <button id="a_z">A-Z <i class="fas fa-angle-down" ></i>
+            <button id="a_z">A-Z <i class="fas fa-angle-down"></i>
                 <div class="year_bx letter_bx">
                     <li id="letter_a_btn">A</li>
                     <li id="letter_b_btn">B</li>
@@ -189,7 +192,8 @@
                     <li>H</li>
                     <li id="letter_t_btn">T</li>
                     <li>Z</li>
-                </div></button>
+                </div>
+            </button>
         </div>
         <div class="right_cato">
             <i class="fas fa-star"></i>
@@ -209,70 +213,70 @@
         <div class="letter" id="letter_t"></div>
         <div class="rate_change" id="rate4"></div>
         <div class="rate_change" id="rate8"></div>
-         <div class="card">
-            <a href="https://www.youtube.com/watch?v=TU1HQnU_9ME&list=RDXTp5jaRU3Ws&index=6">
-                <img src="mimg/abcd.jpg" alt="">
+        <div class="card">
+            <a href="#">
+                <img src="mimg/inception.jpg" alt="Inception">
                 <div class="content">
-                    <h5>ABCD</h5>
+                    <h5>Inception</h5>
+                    <h6>
+                        <span>2010</span>
+                        <div class="rate">
+                            <i class="fas fa-heart"></i>
+                            <i class="fas fa-eye"></i>
+                            <i class="fas fa-star"></i>
+                            <h6>8.8</h6>
+                        </div>
+                    </h6>
+                </div>
+            </a>
+        </div>
+        <div class="card">
+            <a href="#">
+                <img src="mimg/john wick 3.jpg" alt="John Wick 3">
+                <div class="content">
+                    <h5>John Wick 3</h5>
+                    <h6>
+                        <span>2019</span>
+                        <div class="rate">
+                            <i class="fas fa-heart"></i>
+                            <i class="fas fa-eye"></i>
+                            <i class="fas fa-star"></i>
+                            <h6>7.4</h6>
+                        </div>
+                    </h6>
+                </div>
+            </a>
+        </div>
+        <div class="card">
+            <a href="#">
+                <img src="mimg/jumanji.jpg" alt="Jumanji">
+                <div class="content">
+                    <h5>Jumanji</h5>
                     <h6>
                         <span>2017</span>
                         <div class="rate">
                             <i class="fas fa-heart"></i>
                             <i class="fas fa-eye"></i>
                             <i class="fas fa-star"></i>
-                            <h6>8.3</h6>
+                            <h6>6.9</h6>
                         </div>
                     </h6>
                 </div>
             </a>
         </div>
+
         <div class="card">
             <a href="#">
-                <img src="mimg/a perfact.jpg" alt="">
+                <img src="mimg/shazam.jpg" alt="Shazam">
                 <div class="content">
-                    <h5>A Prefect</h5>
+                    <h5>Shazam</h5>
                     <h6>
-                        <span>2020</span>
+                        <span>2019</span>
                         <div class="rate">
                             <i class="fas fa-heart"></i>
                             <i class="fas fa-eye"></i>
                             <i class="fas fa-star"></i>
-                            <h6>9.2</h6>
-                        </div>
-                    </h6>
-                </div>
-            </a>
-        </div>
-        <div class="card">
-            <a href="">
-                <img src="mimg/venom2.webp" alt="">
-                <div class="content">
-                    <h5>Venom 2</h5>
-                    <h6>
-                        <span>2018</span>
-                        <div class="rate">
-                            <i class="fas fa-heart"></i>
-                            <i class="fas fa-eye"></i>
-                            <i class="fas fa-star"></i>
-                            <h6>6.5</h6>
-                        </div>
-                    </h6>
-                </div>
-            </a>
-        </div>
-        
-        <div class="card">
-            <a href="#">
-                <img src="mimg/shazam.jpg" alt="">
-                <div class="content">
-                    <h5>Venom 2</h5>
-                    <h6>
-                        <span>2018</span>
-                        <div class="rate">
-                            <i class="fas fa-heart"></i>
-                            <i class="fas fa-eye"></i>
-                            <i class="fas fa-star"></i>
-                            <h6>6.5</h6>
+                            <h6>7.0</h6>
                         </div>
                     </h6>
                 </div>

@@ -10,13 +10,14 @@
     <!-- font-awesome cdn link  -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <title>Advanced Level Movies Website</title>
+    <title>ShowBox - Movie Streaming</title>
 </head>
 
 <body>
     <header>
         <nav>
-            <a href="/" class="logo"><img src="img/logo.png" alt=""></a>
+            <a href="index.html" class="logo"><img src="img/logo2.jpeg" alt="ShowBox Logo"
+                    style="width: 200px; height: 50px; border-radius: 5px;"></a>
             <div class="end_bx">
                 <ul>
                     <li><a href="#">Home</a></li>
@@ -26,7 +27,7 @@
                         <div class="list">
                             <a href="#">Trends Now</a>
                             <a href="#">Popular</a>
-                            <a href="#">Prefrenes</a>
+                            <a href="#">Preferences</a>
                             <a href="#">Recently Added</a>
                             <a href="#">Bollywood</a>
                             <a href="#">Tollywood</a>
@@ -52,7 +53,9 @@
                 <span>Action / Adventure / Sci-Fi</span>
             </h3>
             <h1 id="header_title">Rampage</h1>
-            <p id="header_pra">From Wikipedia, the free encyclopedia Rampage is a series of video games released by Midway (1986–2009) and Warner Bros. Interactive Entertainment (2009–present) for the arcade and various consoles. The basic premise of the games is that,
+            <p id="header_pra">From Wikipedia, the free encyclopedia Rampage is a series of video games released by
+                Midway (1986–2009) and Warner Bros. Interactive Entertainment (2009–present) for the arcade and various
+                consoles. The basic premise of the games is that,
                 due to experiment-related accidents, the player controls a human transformed into a giant monster.</p>
             <div class="btns">
                 <a href="#video"> <button><i class="fas fa-play" id="play_btn"></i> WATCH</button></a>
@@ -74,7 +77,7 @@
     <div class="tranding_bx">
         <li><a href="#" class="active"><i class="fas fa-angle-double-up"></i> Trends Now <span></span></a></li>
         <li><a href="#"><i class="fas fa-fire"></i> Popular <span></span></a></li>
-        <li><a href="#"><i class="fas fa-star"></i> Prefrenes <span></span></a></li>
+        <li><a href="#"><i class="fas fa-star"></i> Preferences <span></span></a></li>
         <li><a href="#"><i class="fas fa-plus"></i> Recently Added <span></span></a></li>
     </div>
 
@@ -82,16 +85,16 @@
     <div class="cato_bx" id="cato_bx">
         <button id="action1">Action</button>
         <button id="crime1">Crime</button>
-        <button>Adeventure</button>
+        <button>Adventure</button>
         <button>Biography</button>
         <button>Animation</button>
-        <button>Comady</button>
+        <button>Comedy</button>
         <button>Documentary</button>
         <button id="drama1">Drama</button>
         <button>WebSeries</button>
         <button>18+</button>
-        <button>SciFi</button>
-        <button>Horor</button>
+        <button>Sci-Fi</button>
+        <button>Horror</button>
         <!-- all button copyed  -->
         <div class="cato_left_right">
             <i class="fas fa-angle-down" id="left_scroll"></i>
@@ -103,8 +106,8 @@
 
     <!-- movies box strat  -->
     <div class="movie_bx_1" id="mvoes_bx_1">
-        <button id="left_scroll1"> <i class="fas fa-angle-down" ></i></button>
-        <button id="right_scroll1"> <i class="fas fa-angle-down" ></i></button>
+        <button id="left_scroll1"> <i class="fas fa-angle-down"></i></button>
+        <button id="right_scroll1"> <i class="fas fa-angle-down"></i></button>
         <div class="movie_bxx" id="action_bx"></div>
         <div class="movie_bxx" id="crime_bx"></div>
         <div class="movie_bxx" id="drama_bx"></div>
@@ -112,7 +115,7 @@
     <!-- movies box end  -->
     <!-- video box start  -->
     <div class="video_bx">
-        <video src="video/ant-man.mp4" id="video"></video>
+        <video src="ant-man.mp4" id="video"></video>
         <div class="control">
             <div class="play_redo">
                 <i class="bi bi-play-fill" id="play"></i>
@@ -160,20 +163,20 @@
             <button>Sort by:</button>
             <button id="all_btn">All</button>
             <button id="latest_btn">Latest</button>
-            <button id="year">Year <i class="fas fa-angle-down" ></i>
-            <div class="year_bx">
-                <li id="year2022__btn">2022</li>
-                <li id="year2021__btn">2021</li>
-                <li id="year2020__btn">2020</li>
-                <li>2019</li>
-                <li>2018</li>
-                <li>2017</li>
-                <li>2016</li>
-                <li>2015</li>
-                <li>2014</li>
-            </div>
+            <button id="year">Year <i class="fas fa-angle-down"></i>
+                <div class="year_bx">
+                    <li id="year2022__btn">2022</li>
+                    <li id="year2021__btn">2021</li>
+                    <li id="year2020__btn">2020</li>
+                    <li>2019</li>
+                    <li>2018</li>
+                    <li>2017</li>
+                    <li>2016</li>
+                    <li>2015</li>
+                    <li>2014</li>
+                </div>
             </button>
-            <button id="a_z">A-Z <i class="fas fa-angle-down" ></i>
+            <button id="a_z">A-Z <i class="fas fa-angle-down"></i>
                 <div class="year_bx letter_bx">
                     <li id="letter_a_btn">A</li>
                     <li id="letter_b_btn">B</li>
@@ -184,7 +187,8 @@
                     <li>H</li>
                     <li id="letter_t_btn">T</li>
                     <li>Z</li>
-                </div></button>
+                </div>
+            </button>
         </div>
         <div class="right_cato">
             <i class="fas fa-star"></i>

@@ -89,7 +89,7 @@ const slider_load = () => {
 setInterval(slider_load, 15000);
 slider_load();
 
-// video controal start 
+// video control start 
 
 let plays = document.getElementById('play');
 let videos = document.getElementById('video');
@@ -244,21 +244,21 @@ full_screen.addEventListener('click', () => {
 let title_video = document.getElementsByClassName('title_video');
 let video_1 = document.getElementsByClassName('video_1');
 video_1[0].addEventListener('click', () => {
-    videos.src = "video/rampage.mp4";
+    videos.src = "rampage.mp4";
     videos.play();
     title_video[0].innerText = "Rampage (2017)";
     plays.classList.add('bi-pause-fill');
     plays.classList.remove('bi-play-fill');
 });
 video_1[1].addEventListener('click', () => {
-    videos.src = "video/ant-man.mp4";
+    videos.src = "ant-man.mp4";
     videos.play();
     title_video[0].innerText = "Ant-Man (2019)";
     plays.classList.add('bi-pause-fill');
     plays.classList.remove('bi-play-fill');
 });
 video_1[2].addEventListener('click', () => {
-    videos.src = "video/potc.mp4";
+    videos.src = "potc.mp4";
     videos.play();
     title_video[0].innerText = "Pirates of the Caribbean (2015)";
     plays.classList.add('bi-pause-fill');
@@ -1049,7 +1049,7 @@ const movies = [{
             genre11: "horror",
             year: 2020,
             rate: 8.6,
-            url: "bfg.html",
+            url: "themanor.html",
             tppr: "popular",
             msot: "movie"
         },
@@ -1071,7 +1071,7 @@ const movies = [{
             genre11: "horror",
             year: 2022,
             rate: 6.5,
-            url: "bfg.html",
+            url: "themanor.html",
             tppr: "recent",
             msot: "movie",
             upload: "latest"
@@ -1088,6 +1088,10 @@ action1.addEventListener('click', () => {
     action1.classList.toggle('cato_button_active');
     action_bx.classList.toggle('movie_box_active');
 });
+
+// Set Action category as active by default
+action1.classList.add('cato_button_active');
+action_bx.classList.add('movie_box_active');
 
 const action_array = movies.filter((e) => {
     return e.genre1 == "action";
@@ -1639,7 +1643,7 @@ search.addEventListener('keyup', () => {
         } else {
             a[i].style.display = 'none';
         }
-        if (search.value == 0) {
+        if (search.value == "") {
             search_bx2.style.visibility = "hidden";
             search_bx2.style.opacity = 0;
         }

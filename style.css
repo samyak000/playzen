@@ -19,10 +19,9 @@ body {
 header {
     position: relative;
     width: 100%;
-    height: 500px;
-    /* border: 1px solid #fff; */
+    height: 550px;
     background: url('img/121213.jpg') no-repeat center center/cover;
-    transition: 1s linear;
+    transition: 0.8s ease-in-out;
     z-index: 2;
 }
 
@@ -363,19 +362,21 @@ header .content .btns {
 }
 
 header .content .btns button {
-    padding: 6px 12px;
-    border-radius: 20px;
-    background: red;
-    border: 2px solid red;
+    padding: 8px 20px;
+    border-radius: 25px;
+    background: #ff0000;
+    border: 2px solid #ff0000;
     color: #fff;
-    margin-right: 10px;
+    margin-right: 15px;
     font-family: 'Poppins', sans-serif;
-    font-size: 12px;
-    font-weight: 500;
-    box-shadow: 0px 3px 10px red;
-    transition: .3s linear;
+    font-size: 13px;
+    font-weight: 600;
+    box-shadow: 0px 5px 15px rgba(255, 0, 0, 0.4);
+    transition: all 0.3s ease;
     cursor: pointer;
     z-index: 999;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 header .content .btns button:nth-child(2) {
@@ -478,7 +479,8 @@ header .slider_btns h6:nth-child(1) {
 }
 
 .tranding_bx li .active span {
-    background: red;
+    background: #ff0000;
+    box-shadow: 0 0 10px #ff0000;
 }
 
 
@@ -506,18 +508,19 @@ header .slider_btns h6:nth-child(1) {
 }
 
 .cato_bx button {
-    padding: 4px 30px;
-    background: red;
+    padding: 6px 30px;
+    background: rgba(255, 0, 0, 0.8);
     border: none;
     outline: none;
     color: #fff;
     border-radius: 20px;
     font-family: 'Poppins', sans-serif;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 13px;
-    margin-right: 10px;
+    margin-right: 12px;
     cursor: pointer;
-    transition: .3s linear;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(5px);
 }
 
 .cato_bx button:hover {
@@ -548,7 +551,7 @@ header .slider_btns h6:nth-child(1) {
 /* cato button java class start  */
 
 .cato_bx .cato_button_active {
-    background: rgb(184, 184, 184, .2);
+    background: rgba(184, 184, 184, 0.2);
 }
 
 
@@ -573,18 +576,17 @@ header .slider_btns h6:nth-child(1) {
 /* movie extra box  */
 
 .movie_bx_1 .movie_bxx {
-    display: flex;
+    display: none;
     align-items: center;
     width: auto;
     height: 100%;
-    /* border: 1px solid #fff; */
 }
 
 
 /* movies box java class start  */
 
 .movie_bx_1 .movie_box_active {
-    display: none;
+    display: flex;
 }
 
 
