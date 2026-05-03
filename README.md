@@ -55,9 +55,19 @@ Run using a live server
 Movie data is stored locally (in JavaScript or static files)
 JavaScript dynamically renders movie cards
 CSS handles layout, responsiveness, and animations
-📸 Screenshots
 
-(Add screenshots of your website here)
+
+<h2>📸 Screenshots</h2>
+
+<p align="center">
+  <img src="assets/screenshots/home.png" width="800"/>
+</p>
+
+<p align="center">
+  <img src="assets/screenshots/search.png" width="800"/>
+</p>
+
+
 
 📌 Future Improvements
 🔍 Add search functionality
@@ -65,13 +75,8 @@ CSS handles layout, responsiveness, and animations
 🌙 Dark mode toggle
 ⭐ Ratings system
 🔐 User login & personalization
-🤝 Contributing
 
-Contributions are welcome! Feel free to fork this repository and submit a pull request.
 
-📄 License
-
-This project is open-source and available under the MIT License.
 
 👨‍💻 Author
 
