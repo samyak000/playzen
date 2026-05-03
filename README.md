@@ -5,7 +5,7 @@ PLAYZEN is a modern movie website built using pure frontend technologies. It sho
 ---
 
 ## 🚀 Live Demo
-*(Add your deployed link here if available)*
+https://playzen-mu.vercel.app/
 
 ---
 
