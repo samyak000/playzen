@@ -17,6 +17,18 @@ PLAYZEN is a modern movie website built using pure frontend technologies. It sho
 
 ---
 
+
+<h2>📸 Screenshots</h2>
+
+<p align="center">
+  <img src="assets/screenshots/home.png" width="800"/>
+</p>
+
+<p align="center">
+  <img src="assets/screenshots/search.png" width="800"/>
+</p>
+
+
 ## ✨ Features
 
 - 🎥 Browse a curated collection of movies  
@@ -56,16 +68,6 @@ Movie data is stored locally (in JavaScript or static files)
 JavaScript dynamically renders movie cards
 CSS handles layout, responsiveness, and animations
 
-
-<h2>📸 Screenshots</h2>
-
-<p align="center">
-  <img src="assets/screenshots/home.png" width="800"/>
-</p>
-
-<p align="center">
-  <img src="assets/screenshots/search.png" width="800"/>
-</p>
 
 
 
